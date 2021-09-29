@@ -25,7 +25,7 @@ const CartCheckout = ()=>{
 
 const Container = styled.div`
     border-radius:var(--radius);
-    width:25rem;
+    width:100%;
     margin:3rem 0;
     padding:2rem 0;
     display:flex;
@@ -64,6 +64,9 @@ const Container = styled.div`
         cursor:pointer;
         font-size:1.1rem;
 
+    }
+    @media (min-width:700px) {
+        width:25rem;
     }
     
 `

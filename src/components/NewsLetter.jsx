@@ -27,7 +27,7 @@ text-align:center;
         padding : .75rem .25rem;
         border-radius : var(--radius);
         border:1px solid var(--clr-h-light);
-        width : 400px;
+        width : 80%;
         margin-right : 1.2rem;
     }
     button {

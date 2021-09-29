@@ -14,7 +14,7 @@ const CartList = ({ id, name, price, image, color, items,maxItems }) => {
     }
 
     return (
-        <Container>
+        <Container className="section-center">
             <img src={image} alt={name} />
             <div className="info">
                 <Link to={`/product/${id}`}><h3>{name}</h3></Link>
@@ -80,7 +80,7 @@ const Container = styled.div`
     .toggle {
         width:100%;
         display:grid;
-        grid-template-columns:300px auto;
+        grid-template-columns:40% auto;
     }
     .btn-container {
         display:flex;
