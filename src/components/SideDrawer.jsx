@@ -13,7 +13,7 @@ const SideDrawer = ()=>{
         <Container>
             <aside className={`${isSidebarOpen ? 'sidebar show ' :'sidebar' }`}>
                <div className="header">
-                    <img src="" alt="logo" className="logo" />
+                    <p>Beauty<span>Home</span></p>
                     <button className="close" onClick={closeSidebar}> <FaTimes/> </button>
                </div>
                <ul className="links">
@@ -78,6 +78,15 @@ const Container = styled.div`
 .cart-btn-w {
     margin: 1rem auto;
 }
+p {
+        span {
+            color :var(--clr-dark);
+            font-weight:bold;
+            font-size:1.3rem;
+
+        }
+        fonts-size:1.2rem;
+    }
 `
 
 
