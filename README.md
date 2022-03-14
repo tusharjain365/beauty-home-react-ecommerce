@@ -1,8 +1,16 @@
 # E-Commerce React App
-Complete App is deployed here https://beauty-home-react1.netlify.app/
 
-This is an ecommerce site with dummy home products.
-For frontend reactjs is used and for backend netlify serverless function is used to integrate it with stripe payment.This site also uses user authentication that has been connected to auth0 service and for storing cart products of user local storage is used.
+E-Commerce Web App made with React.js along with Authentication and Checkout functionality.
+
+Complete App is deployed here https://beauty-home-react1.netlify.app/
+![image](https://user-images.githubusercontent.com/75572829/158166836-c915b951-c071-46b2-92a8-31d80bd55581.png)
+![image](https://user-images.githubusercontent.com/75572829/158166950-7355513c-8101-4ed1-9af2-762693d23203.png)
+![image](https://user-images.githubusercontent.com/75572829/158167212-001b3dd7-e8cb-45fb-afa2-553fbe49205e.png)
+
+# Get Started
+- Fork this repo.
+- Made an account with Auth0 and stripe if not done already.
+- Make a file `.env` in src folder and put all the secrets from account.
 
 ## Fixes for Deployment with Netlify
 Try to prevent all the warnings before productions if still have some warnings then,
